@@ -58,8 +58,8 @@
 		        <version>2.11.0</version>
 		        <configuration>
 		            <schemaVersion>v2</schemaVersion>
-		            <resourceGroup>ocr-1710560700804-rg</resourceGroup>
-		            <appName>ocr-1710560700804</appName>
+		            <resourceGroup>ferramentas</resourceGroup>
+		            <appName>ocrferramentas</appName>
 		            <pricingTier>F1</pricingTier>
 		            <region>centralus</region>
 		            <runtime>
