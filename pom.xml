@@ -10,7 +10,7 @@
 	<groupId>com.ferramentas</groupId>
 	<artifactId>ocr</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>ocr</name>
 	<description>Microservico de OCR</description>
 	<properties>
