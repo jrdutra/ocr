@@ -21,9 +21,6 @@ jobs:
         with:
           java-version: '17'
 
-      - name: export TESSERACT_DATA_PATH
-        run: export TESSERACT_DATA_PATH=/usr/share/tesseract-ocr/4.00/tessdata
-
       - name: Build with Maven
         run: mvn clean install
 
@@ -47,9 +44,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: java-app
-      
-      - name: export TESSERACT_DATA_PATH
-        run: export TESSERACT_DATA_PATH=/usr/share/tesseract-ocr/4.00/tessdata
 
       - name: Login to Azure
         uses: azure/login@v1
