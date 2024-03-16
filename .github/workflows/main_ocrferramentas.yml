@@ -40,9 +40,6 @@ jobs:
       id-token: write #This is required for requesting the JWT
 
     steps:
-      - name: Setup TESSERACT_DATA_PATH
-        run: export TESSERACT_DATA_PATH=/usr/share/tesseract-ocr/4.00/tessdata
-
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
         with:
