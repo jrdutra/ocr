@@ -38,6 +38,13 @@
 		    <artifactId>tess4j</artifactId>
 		    <version>4.5.2</version>
 		</dependency>
+		
+		<dependency>
+		    <groupId>org.apache.tomcat.embed</groupId>
+		    <artifactId>tomcat-embed-core</artifactId>
+		    <version>10.0.16</version> <!-- Versão do Tomcat -->
+		    <scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -45,13 +52,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
+				<!--<executions>
 	                <execution>
 	                    <goals>
 	                        <goal>repackage</goal>
 	                    </goals>
 	                </execution>
-            	</executions>
+            	</executions>-->
 			</plugin>
 		</plugins>
 	</build>
