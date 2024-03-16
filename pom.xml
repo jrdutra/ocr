@@ -61,7 +61,7 @@
 		            <resourceGroup>ferramentas</resourceGroup>
 		            <appName>ocrferramentas</appName>
 		            <pricingTier>F1</pricingTier>
-		            <region>centralus</region>
+		            <region>brazilsouth</region>
 		            <runtime>
 		                <os>Linux</os>
 		                <javaVersion>Java 17</javaVersion>
