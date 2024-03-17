@@ -24,19 +24,6 @@ public class OcrApplication extends SpringBootServletInitializer {
         @Autowired
         private ResourceLoader resourceLoader;
 
-        @EventListener(ApplicationReadyEvent.class)
-        public void initTess4j() {
-            try {
-                // Extrai os recursos do Tesseract para uma pasta temporária
-                // e configura o caminho da biblioteca nativa do Tesseract
-                // para essa pasta temporária
-                System.setProperty("java.library.path", 
-                    LoadLibs.extractTessResources("win32-x86-64").getPath());
-            } catch (Exception e) {
-                // Lidar com a exceção, se necessário
-                e.printStackTrace();
-            }
-        }
     }
 
 }
